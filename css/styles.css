@@ -1,0 +1,151 @@
+
+*:root {
+    --default-color : #2E2F42;
+    --secondary-color: #FFFFFF;
+    --third-color:#4D5AE5;
+    --fouth-color: #F4F4FD;
+    --fifth-color:#E7E9FC;
+    --sixth-color:#404BBF;
+    --seventh-color:#434455;
+    --theme-color: #2E2F42;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    color: var(--default-color,#2E2F42);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+
+.top-line{
+    background-color: var(--secondary-color);
+}
+.logo {
+    color: inherit;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-colored {
+    color: var(--third-color);
+}
+.logo, 
+.nav, 
+.contact {
+    text-decoration: none;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.nav{
+    color: var(--default-color);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.contact{
+    color: var(--default-color);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.unstyle-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.hero-image {
+    background-color: var(--theme-color);
+    color: var(--secondary-color);
+}
+.hero-top-banner{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.feat-title, .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.feat-desc {
+    color:var(--seventh-color);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.card-content {
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.btn-primary,
+.filter-btn{
+    font-weight: 500;
+    line-height: 1.5;
+    border-radius: 4px;
+    border: 1px solid var(--fifth-color);
+    border: 0;
+}
+.btn-primary{
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.filter-btn{
+    color: var(--third-color);
+    background-color: var(--fouth-color);
+    border: 1px solid var(--fifth-color);
+}
+.card-content{
+    color:var(--seventh-color);
+}
+.section-team{
+    background-color: var(--fouth-color);
+}
+.footer{
+    background-color: var(--theme-color);
+    color: var(--secondary-color);
+}
+
+
+.menu-nav .nav:focus,
+.menu-nav .nav:hover{
+    color: var(--sixth-color);
+}
+.menu-contact .contact:hover,
+.menu-contact .contact:focus,
+.menu-nav .nav.active{
+    color: var(--sixth-color);
+}
+.hero-image .btn-primary:hover,
+.filters .filter-btn:hover{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--sixth-color, #404BBF);
+    cursor: pointer;
+}
+.hero-image .btn-primary:focus,
+.filters .filter-btn:focus{
+    color: var(--secondary-color, #FFFFFF);
+    background-color: var(--third-color);
+}
+.filters .filter-btn.active {
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+}
