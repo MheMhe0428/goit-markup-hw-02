@@ -67,7 +67,7 @@ body {
 .feat-title, .card-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    /*line-height: 24px;*/
     letter-spacing: 0.4px;
 }
 .feat-desc {
@@ -80,9 +80,9 @@ body {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.card-content {
+/*.card-content {
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.32px;*/
 }
 .btn-primary,
 .filter-btn{
@@ -99,6 +99,7 @@ body {
     background-color: var(--third-color);
     font-weight: 500;
     line-height: 24px;
+    cursor:pointer;
     font-size: 16px;
     font-family: inherit;
     letter-spacing: 0.64px;
@@ -135,7 +136,7 @@ body {
     background-color: var(--sixth-color, #404BBF);
     border-color: var(--sixth-color, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    /*cursor: pointer;*/
+   
 }
 .hero-image .btn-primary:focus,
 .filters .filter-btn:focus{
